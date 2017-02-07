@@ -7,7 +7,7 @@ Developed by Dave Hall.
 """
 
 try:
-    import django  # noqa
+    import django.apps  # noqa
 except ImportError:  # pragma: no cover
     # The top-level API requires Django, which might not be present if setup.py
     # is importing reversion to get __version__.
