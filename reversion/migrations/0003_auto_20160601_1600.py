@@ -75,6 +75,8 @@ def set_version_db(apps, schema_editor):
 
 class Migration(migrations.Migration):
 
+    initial = True
+
     dependencies = [
         ('reversion', '0002_auto_20141216_1509'),
     ]

@@ -7,6 +7,8 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
+    initial = True
+
     dependencies = [
         ('reversion', '0003_auto_20160601_1600'),
     ]
